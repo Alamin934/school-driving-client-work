@@ -1,0 +1,973 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*=====START GLOBAL CSS=====*/
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
+.font-38px {
+    font-size: 38px;
+}
+
+/*Owl Nav*/
+button.owl-next {
+    right: -25px;
+    position: absolute;
+}
+
+button.owl-prev {
+    position: absolute;
+    left: -25px;
+}
+
+
+.fa.fa-chevron-left,
+.fa.fa-chevron-right {
+    font-size: 25px;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.width-86 {
+    width: 86%;
+    margin-left: auto;
+}
+
+/*CIRCLE BUTTON CSS*/
+.button-border {
+    background: -webkit-gradient(linear, left top, left bottom, from(#C6C6C6), to(#E1E1E1));
+    background: linear-gradient(180deg, #C6C6C6 0%, #E1E1E1 100%);
+    width: 112px;
+    height: 112px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFCE39), to(#DCA500));
+    background: linear-gradient(180deg, #FFCE39 0%, #DCA500 100%);
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.button h4 {
+    padding: 34px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.button .dash-icon {
+    width: 25px;
+    height: 8px;
+    background: #fff;
+    display: block;
+    border-radius: 25px;
+    position: absolute;
+    top: 22px;
+    left: 32px;
+}
+
+/*Double Border*/
+.double-border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.double-border div {
+    width: 75px;
+    height: 4px;
+    background: #FFC107;
+    position: absolute;
+    top: -2px;
+}
+
+/*=====END GLOBAL CSS=====*/
+
+/*=====TOP-BAR CSS=====*/
+#top-bar {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background: #0c0d16b0;
+    padding: 0px;
+}
+
+#top-bar .left-bar a {
+    color: #fff;
+}
+
+#top-bar .nav-link {
+    color: #fff;
+    padding: .5rem .5rem;
+}
+
+#top-bar .social-icon {
+    font-size: 16px;
+}
+
+#top-bar .clr-y {
+    color: #FFC107;
+}
+
+#top-bar .vertical-line {
+    height: 20px;
+}
+
+/*=====NAVBAR CSS=====*/
+.navbar {
+    background: rgba(12, 13, 22, 0.4);
+    padding: 0px 15px;
+}
+
+.logo {
+    margin-left: -50px;
+    width: 225px;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.vertical-line {
+    border-left: 1px solid #FFC107;
+    height: 40px;
+    display: block;
+}
+
+.navbar .btn {
+    padding: 3px 15px;
+    border-radius: 3px !Important;
+}
+
+.navbar a p {
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: -.5rem !important;
+}
+
+.navbar a span {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.navbar ul li .nav-link.active::before,
+.navbar ul li .nav-link:hover::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #FFC107;
+}
+
+/*=====HOME PAGE=====*/
+/*===BANNER CSS===*/
+#banner {
+    background: url(../images/bg-image.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 807px;
+    padding: 0px;
+}
+
+.bg-overlay {
+    background: #0d0e1780;
+    height: 807px;
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+.banner-text {
+    font-size: 48px;
+    line-height: 72px;
+    padding-top: 185px;
+    color: #fff;
+}
+
+.card {
+    background: #F6F8FA;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+}
+
+.card .card-title {
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+/*FORM SWITCH CSS*/
+.custom-control-input:checked ~ .custom-control-label::before {
+    background: #FFC107;
+}
+
+.custom-switch .custom-control-label::before {
+    left: -61px;
+    width: 3.40rem;
+    height: 2rem;
+    border-radius: 1.5rem;
+}
+
+.custom-control-label::before {
+    position: absolute;
+    top: -5px;
+    background: #FFC107;
+}
+
+.custom-switch .custom-control-label::after {
+    top: calc(-5px + 2px);
+    left: calc(-55px + -4px);
+    width: calc(2.25rem - -2px);
+    height: calc(2rem - 4px);
+    border-radius: 1.5rem;
+    background: #fff;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    background: #fff;
+}
+
+/*FORM POST CODE CSS*/
+.box {
+    width: 100%;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 8px;
+    margin-top: 60px;
+}
+
+.post-code {
+    position: absolute;
+}
+
+.box > .iconify {
+    position: absolute;
+    right: 26px;
+}
+
+.box > input {
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    background: transparent;
+    border-bottom: 1px solid #cacaca;
+}
+
+
+/*BANNER ICON BOX CSS*/
+
+#banner-icon-box .card {
+    height: 175px;
+    width: auto;
+    margin: 0px 10px;
+}
+
+#banner-icon-box p.text-muted {
+    font-size: 14px;
+}
+
+/*=====HOW IT WORKS CSS=====*/
+#works {
+    padding-top: 175px
+}
+
+
+/*=====START CTA/LEARNING PART=====*/
+#learning {
+    background: url(../images/bg2.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#learning .button-border {
+    background: -webkit-gradient(linear, left top, left bottom, from(#3F3F3F), to(#5C5C5C));
+    background: linear-gradient(180deg, #3F3F3F 0%, #5C5C5C 100%);
+    width: 118px;
+    height: 118px;
+    margin: auto;
+}
+
+#learning .button {
+    background: -webkit-gradient(linear, left top, left bottom, from(#D75B5B), to(#B31313));
+    background: linear-gradient(180deg, #D75B5B 0%, #B31313 100%);
+    top: 9px;
+    left: 9px;
+    border-color: #ffce39d6;
+}
+
+#learning .button h4 {
+    padding: 34px 15px;
+    color: #fff !important;
+}
+
+/*=====START CTA/REGISTER PART=====*/
+#register {
+    background: url(../images/bg3.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*=====TESTIMONIAL PART CSS=====*/
+
+#testimonials .media img {
+    width: 50px;
+}
+
+#testimonials .card {
+    height: 217px;
+}
+
+.checked {
+    color: #ffc107;
+}
+
+/*=====SUBSCRIBE PART CSS=====*/
+#subscribe {
+    background: url(../images/bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subscribe .double-border {
+    width: 45%;
+    margin: auto;
+}
+
+#subscribe input {
+    height: 50px;
+    border-radius: 3px;
+}
+
+#subscribe input[type="email"]::-webkit-input-placeholder {
+    text-align: center;
+}
+
+#subscribe input[type="email"]:-ms-input-placeholder {
+    text-align: center;
+}
+
+#subscribe input[type="email"]::placeholder {
+    text-align: center;
+}
+
+#subscribe button {
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 35px !important;
+}
+
+/*=====FOOTER CSS=====*/
+#footer {
+    background: #262B44;
+}
+
+/*Footer Top Part*/
+#footer .call-back input {
+    position: relative;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#footer .call-back button {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    height: 50px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+/*Footer Top Part*/
+#footer .border-bottom {
+    border-bottom: 1px solid #ffffff2e !important;
+    margin: 30px 0px 30px 15px;
+}
+
+/*Footer Middle Part*/
+#footer-middle {
+    font-family: 'Lato', sans-serif;
+}
+
+#footer-middle .after-width {
+    width: 44px;
+    height: 2px;
+    background: #ffc107;
+    display: block;
+    margin-top: 12px;
+}
+
+#footer-middle .navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffffba !important;
+}
+
+#footer-middle .media {
+    font-family: 'Lato', sans-serif;
+    color: #ffffffba !important;
+}
+
+/*Footer Bottom Part*/
+#copy-right {
+    background: #1C2033;
+}
+
+#copy-right p {
+    font-size: 12px;
+}
+
+/*=====FORM PAGE CSS=====*/
+#form {
+    padding-top: 200px
+}
+
+#form select,
+#registration select {
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    width: 96%;
+    color: #757575;
+    height: 40px;
+}
+
+#form select:focus,
+#registration select {
+    outline: none;
+}
+
+#form .border-bottom {
+    border-bottom: 2px solid #dee2e6 !important;
+    width: 90%;
+    margin: auto;
+}
+
+input[type="date"] {
+    margin-left: 10px;
+    margin-right: 240px;
+}
+
+#form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    height: 80px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+/*Driving Detials*/
+#driving-detials .title,
+#availability-details .title {
+    width: 35%;
+}
+
+/*Custom Radio Button*/
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 9px;
+    height: 9px;
+    background: rgb(255, 193, 7);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*===== ABOUT US PAGE=====*/
+/*=== BANNER PART ===*/
+#about_banner {
+    background: url(../images/about_banner.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+
+#about_banner .banner-text {
+    padding-top: 120px;
+}
+
+#about_banner p {
+    font-size: 20px;
+    width: 45%;
+    margin: 0px auto;
+}
+
+/*=== QUOTE FORM ===*/
+#quote_form .button-border {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+}
+
+#quote_form .button {
+    width: 90px;
+    height: 90px;
+    top: 5px;
+    left: 5px;
+}
+
+#quote_form .dash-icon {
+    left: 28px;
+}
+
+#quote_form .button > h4 {
+    font-size: 17px;
+}
+
+/*===== HOW IT WORKS PAGE=====*/
+/*=== BANNER PART ===*/
+#how_it_banner {
+    background: url(../images/how_it_banner.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px;
+}
+
+#how_it_banner .banner-text {
+    padding-top: 140px;
+}
+
+#how_it_banner p {
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+/*=== HOW IT WORKS Part===*/
+.road_svg {
+    position: relative;
+}
+
+.point1 {
+    position: absolute;
+    bottom: -19px;
+    left: 158px;
+}
+
+.point1 .img2 {
+    margin-bottom: -18px;
+}
+
+.point2 {
+    position: absolute;
+    bottom: -77px;
+    left: 16px;
+}
+
+.point2 .img2 {
+    margin-top: -16px;
+}
+
+.point3 {
+    position: absolute;
+    bottom: -19px;
+    right: 227px;
+}
+
+.point3 .img2 {
+    margin-bottom: -18px;
+}
+
+
+/*===== CONTACT US PAGE=====*/
+/*=== BANNER PART ===*/
+#contact_banner {
+    background: url(../images/contact_banner.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px;
+}
+
+#contact_banner .banner-text {
+    padding-top: 160px;
+}
+
+#contact_banner p {
+    font-size: 20px;
+    width: 45%;
+    margin: 0px auto;
+}
+
+#contact textarea {
+    margin-top: 70px;
+}
+
+/*===== HOW REGISTRATION PAGE=====*/
+/*=== BANNER PART ===*/
+#registration_banner {
+    background: url(../images/registration_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+
+#registration .box {
+    margin-top: 20px;
+}
+
+
+
+/*MEDIA QUERY CSS*/
+@media(max-width:1198px) {
+
+    .point1 {
+        left: 158px;
+    }
+
+    .point3 {
+        right: 224px;
+    }
+}
+
+@media(max-width:1180px) {
+
+    .point1 {
+        left: 147px;
+    }
+
+    .point3 {
+        right: 215px;
+    }
+}
+
+@media(max-width:1160px) {
+
+    .point1 {
+        left: 135px;
+    }
+
+    .point3 {
+        right: 205px;
+    }
+}
+
+
+
+@media(max-width:1117px) {
+
+    /*BANNER ICON BOX CSS*/
+    #banner-icon-box .card {
+        height: 195px;
+        margin: 5px auto;
+    }
+
+
+    .point1 {
+        left: 115px;
+    }
+
+    .img2 {
+        width: 65%;
+    }
+
+    .point2 {
+        bottom: -72px;
+        left: 12px;
+    }
+
+    .point3 {
+        right: 189px;
+    }
+
+}
+
+@media(max-width:1050px) {
+
+    .point1 {
+        left: 112px;
+    }
+
+    .point3 {
+        right: 177px;
+    }
+
+    .img1 {
+        width: 38%;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    /*OFFCANVAS NAVBAR CSS*/
+    .offcanvas-collapse {
+        position: fixed;
+        top: 171px;
+        /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #000000de;
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        -webkit-transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    .navbar .vertical-line {
+        display: none;
+    }
+
+    /*Banner CSS*/
+    #banner-icon-box .card {
+        height: 180px;
+    }
+
+    .banner-text {
+        font-size: 42px;
+        padding-top: 230px;
+        text-align: center;
+        line-height: 58px;
+    }
+
+    /*How It Works CSS*/
+    #works {
+        margin-top: 180px
+    }
+
+    #about_banner p {
+        width: 58%;
+    }
+
+    #contact_banner p {
+        width: 58%;
+    }
+
+    .point1,
+    .point2,
+    .point3 {
+        position: static;
+    }
+
+    .img1 {
+        width: auto;
+    }
+
+    .img2 {
+        width: auto;
+    }
+}
+
+@media(max-width:767px) {
+
+    /*BANNER ICON BOX CSS*/
+    #banner-icon-box .card {
+        height: 170px;
+        margin: 5px auto;
+    }
+
+    .offcanvas-collapse {
+        top: 205px;
+    }
+
+    #works {
+        margin-top: 320px
+    }
+
+    .width-86 {
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    /*About Us Page*/
+    #about_banner .banner-text {
+        padding-top: 150px;
+    }
+
+    #about_banner p {
+        width: 71%;
+    }
+
+    #how_it_banner p {
+        width: 95%;
+    }
+
+    #contact_banner p {
+        width: 85%;
+    }
+
+    #contact textarea {
+        margin-top: 30px;
+    }
+}
+
+
+@media(max-width:575px) {
+
+    .offcanvas-collapse {
+        top: 207px;
+    }
+
+    /*BANNER ICON BOX CSS*/
+    #banner-icon-box .card {
+        height: 160px;
+    }
+
+    .banner-text {
+        font-size: 38px;
+        padding-top: 180px;
+    }
+
+    #driving-detials .title,
+    #availability-details .title {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    #about_banner p {
+        width: 100%;
+    }
+
+    #contact_banner p {
+        width: 100%;
+    }
+
+    #footer-middle .after-width {
+        margin: 0px auto;
+    }
+
+    #footer-middle img {
+        margin-left: 0px !important;
+    }
+
+    #footer-middle .media {
+        display: block !important;
+    }
+}
+
+@media(max-width:480px) {
+
+    /*BANNER ICON BOX CSS*/
+    #banner-icon-box .card {
+        height: 190px;
+    }
+
+    .banner-text {
+        font-size: 36px;
+        padding-top: 170px;
+        line-height: 48px;
+    }
+
+    #works {
+        margin-top: 370px
+    }
+
+    #contact_banner .banner-text {
+        padding-top: 190px;
+    }
+
+    #registration_banner {
+        height: 430px;
+    }
+
+}
+
+@media(max-width:350px) {
+    .offcanvas-collapse {
+        top: 242px;
+    }
